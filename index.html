@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--importação da fontes no html-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!---estilo css-->
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Game Shop - A sua loja de games</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Games Shop</h1>
+      <nav>
+        <ul>
+          <li><a href="">Sobre a loja</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header><!---cabeçalho do site-->
+
+  <main>
+    <section id="loja">
+      <div class="container">
+        <img src="./imagens/game.jpeg" alt="loja" />
+        <div class="text">
+          <h2>Sobre a Loja</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+            inventore minima porro tempora error. Nemo voluptatem, possimus,
+            sapiente dolores praesentium voluptas debitis velit soluta
+            recusandae rerum, impedit ea! Necessitatibus, ipsa.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus ducimus laboriosam perspiciatis, aut nemo cupiditate
+            quia modi quam molestias eveniet sed? Vitae nisi dignissimos
+            aperiam mollitia! Ab nobis commodi porro.
+          </p>
+          <ul class="brands-list">
+            <li class="nintendo">
+              <img src="./imagens/nintendo.png" alt="nintendo" />
+            </li>
+            <li class="xbox"><img src="./imagens/xbox.png" alt="xbox" /></li>
+            <li class="play">
+              <img src="./imagens/playstation.png" alt="playstation" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section><!--sessão da loja o conteudo-->
+
+    <section id="contact">
+
+      <div class="container">
+        <h2>CONTATO</h2>
+      </div><!--colocamos em uma tag solitaria pois foi o melhor modo-->
+      <div class="container">
+
+        <div class="form"><!---formulario -->
+
+          <h3>FALE CONOSCO</h3>
+          <form action="">
+            <input type="text" name="name" placeholder="Seu Nome" required />
+            <input type="email" name="email" placeholder="Seu e -mail" required />
+            <input type="tel" name="tel" placeholder="Seu telefone (opcional" ) />
+            <textarea name="textarea" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div class="social_media"><!---rede social-->
+          <h3>nos acompanhe</h3>
+          <ul class="social-links">
+            <li>
+              <a href=""><img src="./imagens/instagram.png" class="img-igual" alt="instagram"
+                  title="Ir para instagram" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./imagens/facebook.png" class="img-igual" alt="facebook"
+                  title="Ir para facebook" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./imagens/youtube.png" alt="youtube" title="Ir para youtube" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="endress"><!---endereço da loja-->
+          <h3>Venha até nós</h3>
+          <p>Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
+        </div>
+      </div>
+    </section><!---sessão contato-->
+  </main>
+
+  <footer><!---roda pe da page-->
+    <div class="footer">
+      &copy; <span>Game Shop- Todos direitos reservados - 2022</span>
+    </div>
+  </footer>
+</body>
+
+</html>

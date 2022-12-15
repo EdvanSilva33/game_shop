@@ -1,0 +1,174 @@
+/*estilos resetando o html*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*estilizando o cabeçalho*/
+
+body,
+.form {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 16px 0;
+  background-color: #182c61;
+
+}
+
+header .container,
+main .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header h1,
+main .container h2,
+h3,
+button {
+  font-weight: normal;
+  font-family: 'Bungee', cursive;
+}
+
+header .container nav ul li {
+  display: inline;
+  margin-left: 16px;
+  font-family: 'Bungee', cursive;
+
+}
+
+header .container nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*estilizando sessão loja*/
+
+main {
+  margin-top: 22px;
+}
+
+main .container {
+  color: #182c61;
+  align-items: flex-start;
+
+}
+
+main .container img {
+  width: 600px;
+}
+
+.text {
+  margin-left: 22px;
+  padding: 0px 16px;
+}
+
+.text p {
+  margin-top: 8px;
+  padding-right: 33px;
+}
+
+.brands-list li {
+  display: inline;
+  margin-right: 16px;
+
+}
+
+.brands-list {
+  margin-top: 20px;
+}
+
+.brands-list li img {
+  width: 90px;
+}
+
+.brands-list .nintendo img {
+  width: 100px;
+}
+
+.brands-list .play img {
+  width: 50px;
+}
+
+/*estilizando sessão contact*/
+
+
+#contact {
+  margin: 20px 0;
+
+}
+
+.container h3 {
+  display: block;
+}
+
+.container .form {
+
+  width: 300px;
+
+}
+
+.form input,
+textarea,
+button {
+  width: 350px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.form button {
+  height: 50px;
+  background-color: #182c61;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #3b5396;
+}
+
+
+.social-links li {
+  list-style: none;
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links .img-igual {
+  width: 30px;
+}
+
+.social-links li a img {
+  width: 70px;
+
+}
+
+/*final part footer*/
+footer {
+  background-color: #182c61;
+  color: #ecf0f1;
+  padding: 16px 0;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 8px auto;
+}
